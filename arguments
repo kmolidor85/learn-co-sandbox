@@ -1,0 +1,30 @@
+def greeting
+  puts "Hi, ruby programmer!"
+end
+
+greeting
+______________________________________________________
+
+def greeting_python
+  puts "hello, python programmer!"
+end
+
+greeting_python
+________________________________________________________
+
+def greeting(name)
+  puts "hello, #{name}!"
+end
+
+greeting("kyle")
+_________________________________________________________
+
+def greeting_programmer(name, language)
+  puts "hello, #{name}. We heard you are a great #{language} programmer."
+end
+
+greeting_programmer("kyle", "python")
+________________________________________________________
+
+
+
